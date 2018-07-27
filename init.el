@@ -17,3 +17,4 @@
 (load "modes/elixir-mode")
 (load "modes/json-mode")
 (load "modes/markdown-mode")
+(load "modes/sh-mode")
