@@ -4,6 +4,8 @@
 (source melpa-stable)
 
 (depends-on "cask")
+(depends-on "coffee-fof")
+(depends-on "coffee-mode")
 (depends-on "dash")
 (depends-on "enh-ruby-mode")
 (depends-on "epl")
