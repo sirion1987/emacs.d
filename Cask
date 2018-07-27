@@ -13,6 +13,7 @@
 (depends-on "evil")
 (depends-on "evil-tabs")
 (depends-on "f")
+(depends-on "json-mode")
 (depends-on "package-build")
 (depends-on "pallet")
 (depends-on "rjsx-mode")

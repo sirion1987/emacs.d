@@ -15,3 +15,4 @@
 (load "modes/coffee-mode")
 (load "modes/rjsx-mode")
 (load "modes/elixir-mode")
+(load "modes/json-mode")
