@@ -13,3 +13,4 @@
 (load "modes/ruby-mode")
 (load "modes/slim-mode")
 (load "modes/coffee-mode")
+(load "modes/rjsx-mode")

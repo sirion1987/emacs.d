@@ -14,6 +14,7 @@
 (depends-on "f")
 (depends-on "package-build")
 (depends-on "pallet")
+(depends-on "rjsx-mode")
 (depends-on "s")
 (depends-on "shut-up")
 (depends-on "slim-mode")
