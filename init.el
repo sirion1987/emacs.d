@@ -16,3 +16,4 @@
 (load "modes/rjsx-mode")
 (load "modes/elixir-mode")
 (load "modes/json-mode")
+(load "modes/markdown-mode")
