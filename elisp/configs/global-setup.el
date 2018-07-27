@@ -4,6 +4,10 @@
 (global-evil-tabs-mode t)
 
 
+;; php syntax check
+(require 'flymake-php)
+(add-hook 'php-mode-hook 'flymake-php-load)
+
 ;; prevent backup files creation
 (setq make-backup-files nil)
 

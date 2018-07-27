@@ -18,3 +18,4 @@
 (load "modes/json-mode")
 (load "modes/markdown-mode")
 (load "modes/sh-mode")
+(load "modes/php-mode")
