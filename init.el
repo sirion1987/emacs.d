@@ -14,3 +14,4 @@
 (load "modes/slim-mode")
 (load "modes/coffee-mode")
 (load "modes/rjsx-mode")
+(load "modes/elixir-mode")
