@@ -5,6 +5,7 @@
 
 (depends-on "cask")
 (depends-on "dash")
+(depends-on "enh-ruby-mode")
 (depends-on "epl")
 (depends-on "evil")
 (depends-on "evil-tabs")
