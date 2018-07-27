@@ -11,3 +11,4 @@
 (load "configs/global-setup")
 
 (load "modes/ruby-mode")
+(load "modes/slim-mode")
