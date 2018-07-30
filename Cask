@@ -16,6 +16,7 @@
 (depends-on "flymake-php")
 (depends-on "json-mode")
 (depends-on "markdown-mode")
+(depends-on "molokai-theme")
 (depends-on "package-build")
 (depends-on "pallet")
 (depends-on "php-mode")
