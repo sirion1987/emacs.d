@@ -9,6 +9,7 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp") t)
 
 (load "configs/global-setup")
+(load "configs/gui")
 
 (load "modes/ruby-mode")
 (load "modes/slim-mode")
