@@ -3,6 +3,10 @@
 (require 'evil-tabs)
 (global-evil-tabs-mode t)
 
+;; Run server if not runnning, for emacsclient using
+(load "server")
+(unless (server-running-p) (server-start))
+
 ;; prevent backup files creation
 (setq make-backup-files nil)
 
