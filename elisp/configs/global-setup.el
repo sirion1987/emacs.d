@@ -8,6 +8,13 @@
 (require 'evil-tabs)
 (global-evil-tabs-mode t)
 
+;; 80 column rule
+(require 'fill-column-indicator)
+(setq fci-rule-width 1)
+
+(define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
+  (global-fci-mode 1)
+
 ;; prevent backup files creation
 (setq make-backup-files nil)
 

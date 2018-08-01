@@ -13,6 +13,7 @@
 (depends-on "evil")
 (depends-on "evil-tabs")
 (depends-on "f")
+(depends-on "fill-column-indicator")
 (depends-on "flymake-php")
 (depends-on "json-mode")
 (depends-on "markdown-mode")
