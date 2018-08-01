@@ -5,8 +5,8 @@
 
 (require 'evil)
 (evil-mode t)
-;;(require 'evil-tabs)
-;;(global-evil-tabs-mode t)
+(require 'evil-tabs)
+(global-evil-tabs-mode t)
 
 ;; prevent backup files creation
 (setq make-backup-files nil)
@@ -22,6 +22,6 @@
 (windmove-default-keybindings 'meta)
 
 ;;Position indicator
-(line-number-mode t)
+(global-linum-mode t)
 (column-number-mode t)
 (size-indication-mode t)
