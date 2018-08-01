@@ -3,19 +3,22 @@
 This is my Emacs configuration.
 
 1. Install[Cask](https://github.com/cask/cask) before to use it.
-2. Clone this repository with `git clone https://github.com/sirion1987/emacs.d ~/emacs.d`
+2. Clone this repository with `git clone https://github.com/sirion1987/emacs.d ~/.emacs.d`
 3. Enjoy :smiley:
 
-You can find the:
+You'll find:
 
 * _Global configuration_ ➜ `elisp/configs/global-setup.el`;
 * _Gui configuration_ ➜ `elisp/configs/gui.el`
 * _Modes_ ➜ `elisp/configs/modes`;
 
+# [Installed packeges](https://github.com/sirion1987/emacs.d/blob/master/Cask)
+
+* [FillColumnIndicator](https://www.emacswiki.org/emacs/FillColumnIndicator)
+* [Evil](https://www.emacswiki.org/emacs/Evil)
 
 # Note
 
-* I'm use [Evil](https://www.emacswiki.org/emacs/Evil)
 * For use Emacs server, copy this script under `/usr/local/bin/e`:
 
   ```
@@ -32,5 +35,4 @@ You can find the:
   fi
 
   eval "$EMACS -n $@"
-
   ```
