@@ -23,16 +23,14 @@ You'll find:
 
   ```
   #!/bin/bash
-  # e - Edit file in emacs client, launchin emacs daemon if necessary
 
-  # alternate falls on emacs --daemon
-  EMACS='emacsclient --alternate-editor=""'
+  visible_frames() {
+	emacsclient -a "" -e '(length (visible-frame-list))'
+  }
 
-  # count opened window frames
-  XFRAMES=`emacsclient -e "(frame-list)" 2>/dev/null | grep -o '#<frame [^F][^>]*>' | wc -l`
-  if [ $XFRAMES = 0 ]; then
-	EMACS="$EMACS -c"
+  if [ "$(visible_frames)" -lt "2" ]; then
+	emacsclient -c "$@"
+  else
+	emacsclient -n "$@"
   fi
-
-  eval "$EMACS -n $@"
   ```
