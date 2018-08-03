@@ -19,7 +19,7 @@ You'll find:
 
 # Note
 
-* For use Emacs server, copy this script under `/usr/local/bin/e`:
+* For use Emacs server (it's valid only for emacs-nox), copy this script under `/usr/local/bin/e`:
 
   ```
   #!/bin/bash
