@@ -1,3 +1,7 @@
+;; Set PATH
+(setq exec-path-from-shell-variables '("PATH"))
+  (exec-path-from-shell-initialize)
+
 ;; Run server if not runnning, for emacsclient using
 ;; Run server before evil!
 
