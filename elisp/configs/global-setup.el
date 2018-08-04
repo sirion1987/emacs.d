@@ -28,5 +28,7 @@
 
 ;;Position indicator
 (global-linum-mode t)
+;; (display-line-numbers t)
+;: setq display-line-numbers t)
 (column-number-mode t)
 (size-indication-mode t)

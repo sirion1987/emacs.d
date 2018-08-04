@@ -4,7 +4,8 @@ This is my Emacs configuration.
 
 1. Install [Cask](https://github.com/cask/cask) before to use it.
 2. Clone this repository with `git clone https://github.com/sirion1987/emacs.d ~/.emacs.d`
-3. Enjoy :smiley:
+3. Run `cask install` under `~/.emacs.d`
+4. Enjoy :smiley:
 
 You'll find:
 
@@ -33,4 +34,31 @@ You'll find:
   else
 	emacsclient -n "$@"
   fi
+  ```
+# Starting Emacs Daemon with systemd
+
+  Copy this script under `~/.config/systemd/user/emacs.service`
+
+  ```
+  [Unit]
+  Description=Emacs text editor
+  Documentation=info:emacs man:emacs(1) https://gnu.org/software/emacs/
+
+  [Service]
+  Type=simple
+  ExecStart=/usr/bin/emacs --fg-daemon
+  ExecStop=/usr/bin/emacsclient --eval "(kill-emacs)"
+  Environment=SSH_AUTH_SOCK=%t/keyring/ssh
+  Restart=on-failure
+
+  [Install]
+  WantedBy=default.target
+
+  ```
+
+  Run emacs server with:
+
+  ```
+  systemctl enable --user emacs
+  systemctl start --user emacs
   ```
