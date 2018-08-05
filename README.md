@@ -62,3 +62,13 @@ You'll find:
   systemctl enable --user emacs
   systemctl start --user emacs
   ```
+
+# Troubleshooting
+
+* [Searching for program: no such file or directory, ruby.](
+	https://github.com
+	/sirion1987
+	/emacs.d
+	/wiki
+	&Searching-for-program:-no-such-file-or-directory,-ruby.
+  )
