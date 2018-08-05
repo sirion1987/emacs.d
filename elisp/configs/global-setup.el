@@ -31,6 +31,7 @@
 ;; (windmove-default-keybindings 'meta)
 
 ;;Position indicator
+(setq linum-format "%3d ")
 (global-linum-mode t)
 ;; (display-line-numbers t)
 ;: setq display-line-numbers t)
