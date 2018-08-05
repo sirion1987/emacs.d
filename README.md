@@ -66,9 +66,5 @@ You'll find:
 # Troubleshooting
 
 * [Searching for program: no such file or directory, ruby.](
-	https://github.com
-	/sirion1987
-	/emacs.d
-	/wiki
-	&Searching-for-program:-no-such-file-or-directory,-ruby.
+	https://github.com/sirion1987/emacs.d/wiki/Searching-for-program:-no-such-file-or-directory,-ruby.
   )
