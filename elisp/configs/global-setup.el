@@ -30,10 +30,13 @@
 ;; Must be after move-text bindings
 ;; (windmove-default-keybindings 'meta)
 
-;;Position indicator
+;; Position indicator
 (setq linum-format "%3d ")
 (global-linum-mode t)
 ;; (display-line-numbers t)
 ;: setq display-line-numbers t)
 (column-number-mode t)
 (size-indication-mode t)
+
+;; Never use TAB when indenting
+(setq-default indent-tabs-mode nil)
