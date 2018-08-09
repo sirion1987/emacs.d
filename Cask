@@ -22,6 +22,7 @@
 (depends-on "package-build")
 (depends-on "pallet")
 (depends-on "php-mode")
+(depends-on "powerline-evil")
 (depends-on "rjsx-mode")
 (depends-on "s")
 (depends-on "shut-up")

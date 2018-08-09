@@ -1,3 +1,3 @@
-;; Emacs graphic ui settings
-
-(load-theme 'molokai t)
+;; Powerline
+(powerline-evil-vim-color-theme)
+(setq powerline-evil-tag-style 'verbose)
