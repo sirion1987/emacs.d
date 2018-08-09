@@ -2,9 +2,6 @@
 (setq exec-path-from-shell-variables '("PATH"))
   (exec-path-from-shell-initialize)
 
-;; Run server if not runnning, for emacsclient using
-;; Run server before evil!
-
 (require 'evil)
 (evil-mode t)
 (require 'evil-tabs)
@@ -26,15 +23,9 @@
 ;; delete whitespaces
 (add-hook 'before-save-hook 'whitespace-cleanup)
 
-;; Navigate between windows using Alt-left, Alt-up, Alt-right
-;; Must be after move-text bindings
-;; (windmove-default-keybindings 'meta)
-
 ;; Position indicator
 (setq linum-format "%3d ")
 (global-linum-mode t)
-;; (display-line-numbers t)
-;: setq display-line-numbers t)
 (column-number-mode t)
 (size-indication-mode t)
 
