@@ -3,6 +3,7 @@
 (source melpa)
 (source melpa-stable)
 
+(depends-on "ag")
 (depends-on "cask")
 (depends-on "coffee-fof")
 (depends-on "coffee-mode")
@@ -23,6 +24,7 @@
 (depends-on "pallet")
 (depends-on "php-mode")
 (depends-on "powerline-evil")
+(depends-on "projectile")
 (depends-on "rjsx-mode")
 (depends-on "s")
 (depends-on "shut-up")
