@@ -17,6 +17,7 @@
 (depends-on "f")
 (depends-on "fill-column-indicator")
 (depends-on "flymake-php")
+(depends-on "helm")
 (depends-on "json-mode")
 (depends-on "markdown-mode")
 (depends-on "molokai-theme")
