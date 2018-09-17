@@ -10,13 +10,21 @@ This is my Emacs configuration.
 You'll find:
 
 * _Global configuration_ ➜ `elisp/configs/global-setup.el`;
-* _Gui configuration_ ➜ `elisp/configs/gui.el`
+* _Navigation_configuration_ ➜ `elisp/configs/navigation.el`;
+* _Gui configuration_ ➜ `elisp/configs/gui.el`;
 * _Modes_ ➜ `elisp/configs/modes`;
 
 # [Installed packeges](https://github.com/sirion1987/emacs.d/blob/master/Cask)
 
 * [FillColumnIndicator](https://www.emacswiki.org/emacs/FillColumnIndicator)
 * [Evil](https://www.emacswiki.org/emacs/Evil)
+* [Helm-projectile](https://github.com/bbatsov/helm-projectile)
+
+# Navigation shortcuts
+
+* Open find fuzzy file with: <kbd>C-x C-f</kbd>;
+* Search a kyeword into files (ag): <kbd>C-x C-a</kbd>;
+* Switch project: <kbd>C-x C-p</kbd>;
 
 # Note
 
@@ -26,13 +34,13 @@ You'll find:
   #!/bin/bash
 
   visible_frames() {
-	emacsclient -a "" -e '(length (visible-frame-list))'
+    emacsclient -a "" -e '(length (visible-frame-list))'
   }
 
   if [ "$(visible_frames)" -lt "2" ]; then
-	emacsclient -c "$@"
+    emacsclient -c "$@"
   else
-	emacsclient -n "$@"
+    emacsclient -n "$@"
   fi
   ```
 # Starting Emacs Daemon with systemd
@@ -66,5 +74,5 @@ You'll find:
 # Troubleshooting
 
 * [Searching for program: no such file or directory, ruby.](
-	https://github.com/sirion1987/emacs.d/wiki/Searching-for-program:-no-such-file-or-directory,-ruby.
+    https://github.com/sirion1987/emacs.d/wiki/Searching-for-program:-no-such-file-or-directory,-ruby.
   )
