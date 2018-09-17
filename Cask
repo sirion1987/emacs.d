@@ -33,3 +33,4 @@
 (depends-on "s")
 (depends-on "shut-up")
 (depends-on "slim-mode")
+(depends-on "yasnippet")
