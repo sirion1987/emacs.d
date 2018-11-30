@@ -12,7 +12,6 @@
 (depends-on "enh-ruby-mode")
 (depends-on "epl")
 (depends-on "evil")
-(depends-on "evil-tabs")
 (depends-on "exec-path-from-shell")
 (depends-on "f")
 (depends-on "fill-column-indicator")
@@ -33,4 +32,5 @@
 (depends-on "s")
 (depends-on "shut-up")
 (depends-on "slim-mode")
+(depends-on "yaml-mode")
 (depends-on "yasnippet")
