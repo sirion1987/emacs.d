@@ -4,8 +4,6 @@
 
 (require 'evil)
 (evil-mode t)
-(require 'evil-tabs)
-(global-evil-tabs-mode t)
 
 ;; 80 column rule
 (require 'fill-column-indicator)
