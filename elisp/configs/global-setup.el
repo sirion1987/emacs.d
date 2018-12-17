@@ -3,6 +3,11 @@
   (exec-path-from-shell-initialize)
 
 (require 'evil)
+(require 'evil-leader)
+(require 'evil-common)
+;; Need to activate this before activating evil-mode
+(global-evil-leader-mode)
+(evil-leader/set-leader "<SPC>")
 (evil-mode t)
 
 ;; 80 column rule
