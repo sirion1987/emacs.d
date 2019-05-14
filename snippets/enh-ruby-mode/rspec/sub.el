@@ -2,4 +2,4 @@
 # name: sub
 # key: sub
 # --
-subject(:${1:subject}) { described_class }
+subject(:${1:subject}) { described_class.new }

@@ -1,5 +1,5 @@
-# -*- mode: snippet; require-final-newline: nil -*-
+# -*- mode: snippet; require-final-newline: f -*-
 # name: create
 # key: create
 # --
-create(:$0)
+let(:$1) { create(:$1$0) }
