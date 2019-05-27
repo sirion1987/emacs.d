@@ -34,3 +34,6 @@
 
 ;; Never use TAB when indenting
 (setq-default indent-tabs-mode nil)
+
+;; don't ask, just kill
+(global-set-key "\C-xk" 'kill-this-buffer)
