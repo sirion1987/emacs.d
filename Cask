@@ -30,6 +30,7 @@
 (depends-on "powerline-evil")
 (depends-on "projectile")
 (depends-on "rjsx-mode")
+(depends-on "rspec-mode")
 (depends-on "s")
 (depends-on "shut-up")
 (depends-on "slim-mode")
