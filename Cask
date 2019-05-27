@@ -23,6 +23,7 @@
 (depends-on "helm-projectile")
 (depends-on "indent-guide")
 (depends-on "json-mode")
+(depends-on "magit")
 (depends-on "markdown-mode")
 (depends-on "molokai-theme")
 (depends-on "package-build")
