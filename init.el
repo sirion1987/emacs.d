@@ -13,6 +13,7 @@
 (load "configs/navigation")
 (load "configs/yasnippet")
 (load "configs/indent-guide")
+(load "configs/magit")
 
 (load "modes/coffee-mode")
 (load "modes/elixir-mode")
