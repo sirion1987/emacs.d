@@ -21,6 +21,7 @@
 (depends-on "helm-ag")
 (depends-on "helm-ag-r")
 (depends-on "helm-projectile")
+(depends-on "indent-guide")
 (depends-on "json-mode")
 (depends-on "markdown-mode")
 (depends-on "molokai-theme")
