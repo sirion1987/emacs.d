@@ -22,9 +22,9 @@ You'll find:
 
 # Navigation shortcuts
 
-* Open find fuzzy file with: <kbd>C-x C-f</kbd>;
-* Search a kyeword into files (ag): <kbd>C-x C-a</kbd>;
-* Switch project: <kbd>C-x C-p</kbd>;
+* Open find fuzzy file with: <kbd><TAB> f</kbd>;
+* Search a kyeword into files (ag): <kbd><TAB> a</kbd>;
+* Switch project: <kbd><TAB> p</kbd>;
 
 # Note
 
