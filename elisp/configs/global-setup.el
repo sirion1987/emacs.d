@@ -37,3 +37,5 @@
 
 ;; don't ask, just kill
 (global-set-key "\C-xk" 'kill-this-buffer)
+
+(setq evil-esc-delay 0)
