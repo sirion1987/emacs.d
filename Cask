@@ -4,6 +4,7 @@
 (source melpa-stable)
 
 (depends-on "ag")
+(depends-on "bison-mode")
 (depends-on "cask")
 (depends-on "coffee-fof")
 (depends-on "coffee-mode")
