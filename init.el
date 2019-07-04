@@ -23,6 +23,7 @@
 (load "modes/php-mode")
 (load "modes/rjsx-mode")
 (load "modes/ruby-mode")
+(load "modes/css-mode")
 (load "modes/sh-mode")
 (load "modes/slim-mode")
 (load "modes/yaml-mode")
