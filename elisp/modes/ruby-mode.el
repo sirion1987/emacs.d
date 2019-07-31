@@ -5,4 +5,8 @@
 (setq enh-ruby-deep-indent-paren nil)
 (setq enh-ruby-deep-indent-construct nil)
 (setq enh-ruby-check-syntax t) ; Show syntax errors
-(add-hook 'enh-ruby-mode-hook (lambda () (modify-syntax-entry ?_ "w")))
+(add-hook 'enh-ruby-mode-hook
+          (lambda ()
+            (progn
+              (modify-syntax-entry ?: "'")
+              (modify-syntax-entry ?_ "w"))))
