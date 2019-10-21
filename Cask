@@ -35,6 +35,7 @@
 (depends-on "rjsx-mode")
 (depends-on "rspec-mode")
 (depends-on "s")
+(depends-on "sass-mode")
 (depends-on "shut-up")
 (depends-on "slim-mode")
 (depends-on "yaml-mode")
