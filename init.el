@@ -3,11 +3,13 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 (require 'pallet)
+(require 'tramp)
 
 (pallet-mode t)
 
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp") t)
 
+(load "configs/defuns")
 (load "configs/global-setup")
 (load "configs/gui")
 (load "configs/navigation")
@@ -35,6 +37,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(coffee-tab-width 2)
+ '(custom-safe-themes
+   (quote
+    ("8f567db503a0d27202804f2ee51b4cd409eab5c4374f57640317b8fcbbd3e466" default)))
  '(package-selected-packages
    (quote
     (sass-mode bison-mode magit indent-guide rspec-mode evil-leader yaml-mode yasnippet helm-ag-r helm-ag helm-projectile helm ag projectile powerline-evil ## exec-path-from-shell fill-column-indicator molokai-theme slim-mode rjsx-mode php-mode pallet markdown-mode json-mode flymake-php enh-ruby-mode elixir-mode coffee-fof))))
