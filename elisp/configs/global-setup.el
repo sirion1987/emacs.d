@@ -7,8 +7,11 @@
 (require 'evil-common)
 ;; Need to activate this before activating evil-mode
 (global-evil-leader-mode)
+(global-undo-tree-mode)
+
 (evil-leader/set-leader "<SPC>")
 (evil-mode t)
+(evil-set-undo-system 'undo-tree)
 
 ;; 80 column rule
 (require 'fill-column-indicator)
