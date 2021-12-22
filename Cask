@@ -38,6 +38,7 @@
 (depends-on "sass-mode")
 (depends-on "shut-up")
 (depends-on "slim-mode")
+(depends-on "solarized-theme")
 (depends-on "undo-tree")
 (depends-on "yaml-mode")
 (depends-on "yasnippet")

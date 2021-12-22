@@ -38,9 +38,9 @@
  ;; If there is more than one, they won't work right.
  '(coffee-tab-width 2)
  '(custom-safe-themes
-   '("8f567db503a0d27202804f2ee51b4cd409eab5c4374f57640317b8fcbbd3e466" default))
+   '("fee7287586b17efbfda432f05539b58e86e059e78006ce9237b8732fde991b4c" "8f567db503a0d27202804f2ee51b4cd409eab5c4374f57640317b8fcbbd3e466" default))
  '(package-selected-packages
-   '(undo-tree sass-mode bison-mode magit indent-guide rspec-mode evil-leader yaml-mode yasnippet helm-ag-r helm-ag helm-projectile helm ag projectile powerline-evil ## exec-path-from-shell fill-column-indicator molokai-theme slim-mode rjsx-mode php-mode pallet markdown-mode json-mode flymake-php enh-ruby-mode elixir-mode coffee-fof)))
+   '(solarized-theme undo-tree sass-mode bison-mode magit indent-guide rspec-mode evil-leader yaml-mode yasnippet helm-ag-r helm-ag helm-projectile helm ag projectile powerline-evil ## exec-path-from-shell fill-column-indicator molokai-theme slim-mode rjsx-mode php-mode pallet markdown-mode json-mode flymake-php enh-ruby-mode elixir-mode coffee-fof)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
