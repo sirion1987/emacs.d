@@ -42,3 +42,4 @@
 (global-set-key "\C-xk" 'kill-this-buffer)
 
 (setq evil-esc-delay 0)
+(setq undo-tree-auto-save-history nil)
