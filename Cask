@@ -5,7 +5,7 @@
 
 (depends-on "ag")
 (depends-on "bison-mode")
-(depends-on "cask")
+(depends-on "cask" :git "https://github.com/cask/cask" :ref "master")
 (depends-on "coffee-fof")
 (depends-on "coffee-mode")
 (depends-on "dash")
@@ -28,7 +28,7 @@
 (depends-on "markdown-mode")
 (depends-on "molokai-theme")
 (depends-on "package-build")
-(depends-on "pallet")
+(depends-on "pallet" :git "https://github.com/rdallasgray/pallet" :ref "master")
 (depends-on "php-mode")
 (depends-on "powerline-evil")
 (depends-on "projectile")
